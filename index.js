@@ -224,12 +224,6 @@ const colors = [
       .attr('y', 30)
       .style('font-size', '14pt')
       .text("Pokmeon: Special Defense vs. Total Stats");
-
-    svgScatterPlot.append('text')
-      .attr('x', 300)
-      .attr('y', 600)
-      .style('font-size', '10pt')
-      .text('Special Defense');
     
     mydropdown1.append('text')
       .attr('x', 30)
@@ -251,7 +245,7 @@ const colors = [
     
     svgScatterPlot.append('text')
       .attr('x', 300)
-      .attr('y', 600)
+      .attr('y', 580)
       .style('font-size', '10pt')
       .text('Special Defense');
     
